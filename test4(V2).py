@@ -61,6 +61,7 @@ def check_name(name):
                 raise ValueError("The name contains special symbol ")
 
         return " ".join(name)
+    
     except ValueError as e:
         print(e)
 
