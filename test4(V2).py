@@ -51,7 +51,7 @@ def check_name(name):
         "`",
         "^",
     ]
-
+    # GPT suggested using regular expressions, I didn't know about that, I'll read up on it
     try:
         for word in name:
             if re.search(r"\d", word):
