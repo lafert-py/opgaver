@@ -58,7 +58,7 @@ def check_name(name):
                 raise ValueError("The name contains numbers")
 
             elif any(elem in symbols for elem in word):
-                raise ValueError("The name contains special symbol")
+                raise ValueError("The name contains special symbol ")
 
         return " ".join(name)
     except ValueError as e:
